@@ -5,7 +5,7 @@ Dockerized(Containerized) kannel server
 You can simply run the server as follows
 
 ```bash
-docker run -d -p 8088:88 -p 2775:2775 -p 2776:2776 antenehrepos/docker-smppsim
+docker run -d -p 13013:13013 -p 13000:13000 antenehrepos/docker-kannel
 ```
 
 Or 

@@ -3,6 +3,7 @@ Dockerized(Containerized) kannel server
 
 You can build and run the image with docker command as
 ```bash
+docker build -t kannel
 docker run -p 13013:13013 -p 13000:13000 kannel
 ```
 

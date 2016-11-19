@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  kannel:
+    build: .
+    image: antenehrepos/kannel
+    container_name: kannel
+    ports:
+      - "13013:13013"
+      - "13000:13000"
